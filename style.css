@@ -1,108 +1,156 @@
+/* .parent{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background-color: aqua;
+    top: 0; left: 0;
+}
+.first{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(47, 0, 255);
+    top: 0; 
+    right: 0;
+} */
 .parent{
     position: absolute;
-    height: 100%;
     width: 100%;
-    background-color: aqua;
+    height: 100%;
     top: 0;
-    left: 0
+    left: 0;
+    background-color: rgb(116, 40, 40);
 }
-.left{
+.first{
     position: absolute;
+    width: 50%;
     height: 100%;
-    width: 70%;
-    background-image: url(images/bg-slides-3.png);
-    background-size: cover;
-    background-position: center;
+    top: 0;
+    left: 0;
+    background-color: rgb(32, 163, 163);
 }
-.it{
+.second{
     position: absolute;
-    width: 40%;
-    height: 100%;
-    background-color: whitesmoke;
+    height: 20%;
+    width: 15%;
+    top: 4%;
+    left: 35%;
+}
+ .aa{
+    position: absolute;
+   top: 25%; left: 10%;
 
-    right: 0;
-}
-.logo{
+}  
+.aab{
     position: absolute;
-    top: 7%;
-    left: 67%;
-  width: 29%;
-  height: 20%;
-    
-}
-.logs{
+   top: 25%; left: 43%;
+
+}  
+.bb{
     position: absolute;
-    width: 23%;
-    height: 47%;
-    top: 10%;
-    left: 4%;
+    left: 45%; top: 25%;
 }
-.pro{
+.c{
     position: absolute;
-    top: 66%;
-    left: 4%;
-   color: whitesmoke;
-   font-size: xx-large;
-font-weight: bolder;
-}
-.talk{
-    position: absolute;
-    top: 79%;
-    left: 4%;
-    color: whitesmoke;
-    font-size: x-large;
-font-family: 'Times New Roman', Times, serif;
-}
-.wel{
-    position: absolute;
-    right: 13%;
-    top: 29%;
+    left: 15%;
+    top: 30%;
     font-size: larger;
-    font-weight: 300;
-    color:rgb(83, 80, 79);
+    font-weight: bold;
+}
+/* .ff{
+    padding: 2px;
+    width: 50px;
+    
+
+} */
+.ee{
+    top: 35%; left: 5%;
+width: 5px;
+    position: absolute;
+}
+.ff{
+    
+    width: 80px;
+    border-radius: 10%;
+    padding: 6px;
+}
+.final{
+    position: absolute;
+    background-color: aqua;
+    width: 50%;
+    height: 100%;
+    right: 0;
+
+}
+.aname{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+.aclass{
+    position: absolute;
+    top: 14%;
+    left: 10%;
+}
+.atab{
+    position: absolute;
+    left: 3%;
+    top: 15%;
+}
+.us{
+
+    padding: 13px;
+    width: 100px;
+    background-color: rgb(14, 185, 185);
+    color: white;
     
 }
-.pls{
-    position: absolute;
-    top:35% ;
-    right: 8%;
-    color: rgb(83, 80, 80);
+.ode{
+
+    top: 30%;
 }
-.form{
+.hmm{
     position: absolute;
-    top: 42%;
-    right:20%;
-    width: 12%;
-   
-}
-.user{
+    width: 26%;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    bottom: 1%; left: 8%;
+    min-height: 10%;
+    border: 1px;
+    resize: none;
+    overflow: hidden;
+    box-sizing: border-box;
+} 
+ .home{
     position: absolute;
-    padding: 5%;
-    width: 225%;
+    left: 9%;
+    bottom: 9%;
+    font-size: larger;
+ }
+ .hm{
+    position: absolute;
+    width: 26%;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    bottom: 1%; left: 70%;
+    height: 10%;
     border: none;
-    outline: none;
-   background-color: rgb(216, 229, 235);
-    height: 9%;
- 
-
-
-}
-.sub{
+} 
+.hom{
     position: absolute;
-    width: 235%;
-    height: 14%;
-    outline: none ;
-    border: none;
-    background-color: red;
-    color: whitesmoke;
-
-
-}
-.fo{
+    left: 71%;
+    bottom: 9%;
+    font-size: larger;
+ }
+ #uname{
     position: absolute;
-    color: rgb(27, 27, 27);
-   
-   
-    text-decoration: none;
+    top: 5%;  left: 10%; font-size: larger;
+    font-weight: bold; 
 
-}
+
+ }
+ #uclass{
+    position: absolute;
+    top: 8%;  left: 10%;   font-size: larger;
+    font-weight: bold;
+ }

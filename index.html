@@ -3,30 +3,748 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>premium</title>
-    <link rel="shortcut icon" href="images/favicon (2).png" type="image/png">
-   
+    <title>my result</title>
     <link rel="stylesheet" href="style.css">
-   
 </head>
 <body>
-    <div class="parent">
-        <div class="left"></div>
-        <img src="images/favicon (2).png" alt="" class="logs">
-        <p class="pro">SERVICE PROMISE</p>
-        <p class="talk">To create and offer best in class financial solutions that provide long <br> lasting impact through premium service delivery, premium Human <br> capital, and premium customer Experience.</p>
-        <div class="it"></div>
-        <img src="images/logo.png" alt="" class="logo">
-        <p class="wel">WELCOME BACK</p>
-        <p class="pls">please sign in with your corporate login details.</p>
-        <form action="" method="post" class="form">
-            <input type="text" name="" id="username" class="user" placeholder="Enter your username"><br><br><br>
-            <input type="text" name="" id="customer id" class="user" placeholder="Enter your customer ID"><br><br><br>
-            <input type="password" name="" id="password" class="user" placeholder="password"><br><br><br>
-            <input type="password" name="" id="otp" class="user" placeholder="Enter your OTP"><br><br><br>
-          <button type="submit" class="sub">Login</button><br><br><br>
-          <a href="" class="fo">Forgot password</a>
-        </form>
-    </div>
+   <div class="parent">
+<div class="first">
+<img src="images/schoologo.jpg" alt="" class="second">
+<form action=""  class="ode">
+    <input type="text" name="namee" id="namee" placeholder="Enter fullname" class="aa" required oninput="para()">
+    <select name="classs" id="classs" class="aab" onchange="para()">
+        <option value="">select your class</option>
+        <option value="SS1">SS1</option>
+        <option value="SS2">SS2</option>
+        <option value="SS3">SS3</option>
+    </select>
+    <span class="c">Subject: test1: test2: Examination: total:</span>
+    <table>
+        <!-- <thead class="dd">
+            <th>subject</th>
+            <th>Test1</th>
+            <th>Test2</th>
+            <th>Examination</th>
+            <th>Total</th>
+        </thead> -->
+        <tbody class="ee">
+            <tr>
+                <td class="ff">
+                     <select name="Subject" id="subjecta" class="ff" onchange="usiea()"> 
+                        <option value="">--select your subject--</option>
+                        <option value="mathematics">mathematics</option>
+                        <option value="english">english</option>
+                        <option value="civic education">civic education</option>
+                        <option value="biology">biology</option>
+                        <option value="physics">physics</option>
+                        <option value="chemistry">chemistry</option>
+                        <option value="agric">agric</option>
+                        <option value="CCP">CCP</option>
+                        <option value="geography">geography</option>
+                    </select>
+                </td>
+
+                
+                <td class="ff">
+                    <input type="number" name="test1a" id="test1a" placeholder="Test1" required min="20" class="ff" oninput="usiea()">
+                </td>
+                
+                <td class="ff">
+                    <input type="number" name="test2a" id="test2a" placeholder="Test2" class="ff" required min="20" oninput="usiea()">
+                </td>
+
+                <td class="ff">
+                    <input type="number" name="exama" id="exama" placeholder="Exam" required class="ff" min="20" oninput="usiea()">
+                </td>
+
+                <td class="ff">
+                    <input type="number" name="totala" id="totala" placeholder="TOTAL" required min="20" class="ff" 
+                    oninput="usiea()">
+                </td>
+            </tr>
+            <tr>
+                <td class="ff">
+                    <select name="Subject" id="subjectb" class="ff" onchange="usieb()"> 
+                        <option value="">--select your subject--</option>
+                        <option value="mathematics">mathematics</option>
+                        <option value="english">english</option>
+                        <option value="civic education">civic education</option>
+                        <option value="biology">biology</option>
+                        <option value="physics">physics</option>
+                        <option value="chemistry">chemistry</option>
+                        <option value="agric">agric</option>
+                        <option value="CCP">CCP</option>
+                        <option value="geography">geography</option>
+                    </select>  
+                </td>
+                <td class="ff">
+                    <input type="number" name="test1b" id="test1b" placeholder="Test1" required min="20" class="ff" oninput="usieb()">
+                </td>
+                
+                <td class="ff">
+                    <input type="number" name="test2b" id="test2b" placeholder="Test2" class="ff" required min="20" oninput="usieb()">
+                </td>
+
+                <td class="ff">
+                    <input type="number" name="examb" id="examb" placeholder="Exam" required class="ff" min="20" oninput="usieb()">
+                </td>
+
+                <td class="ff">
+                    <input type="number" name="totalb" id="totalb" placeholder="TOTAL" required min="20" class="ff" oninput="usieb()">
+                </td>
+            </tr>
+
+            <tr>
+                <td class="ff">
+                    <select name="Subject" id="subjectc" class="ff" onchange="usiec()"> 
+                        <option value="">--select your subject--</option>
+                        <option value="mathematics">mathematics</option>
+                        <option value="english">english</option>
+                        <option value="civic education">civic education</option>
+                        <option value="biology">biology</option>
+                        <option value="physics">physics</option>
+                        <option value="chemistry">chemistry</option>
+                        <option value="agric">agric</option>
+                        <option value="CCP">CCP</option>
+                        <option value="geography">geography</option>
+                    </select>  
+                </td>
+                <td class="ff">
+                    <input type="number" name="test1c" id="test1c" placeholder="Test1" required min="20" class="ff" oninput="usiec()">
+                </td>
+                
+                <td class="ff">
+                    <input type="number" name="test2c" id="test2c" placeholder="Test2" class="ff" required min="20" oninput="usiec()">
+                </td>
+
+                <td class="ff">
+                    <input type="number" name="examc" id="examc" placeholder="Exam" required class="ff" min="20" oninput="usiec()">
+                </td>
+
+                <td class="ff">
+                    <input type="number" name="totalc" id="totalc" placeholder="TOTAL" required min="20" class="ff" oninput="usiec()">
+                </td>
+            </tr>
+            <tr>
+                <td class="ff">
+                    <select name="Subject" id="subjectd" class="ff" onchange="usied()"> 
+                        <option value="">--select your subject--</option>
+                        <option value="mathematics">mathematics</option>
+                        <option value="english">english</option>
+                        <option value="civic education">civic education</option>
+                        <option value="biology">biology</option>
+                        <option value="physics">physics</option>
+                        <option value="chemistry">chemistry</option>
+                        <option value="agric">agric</option>
+                        <option value="CCP">CCP</option>
+                        <option value="geography">geography</option>
+                    </select>  
+                </td>
+                <td class="ff">
+                    <input type="number" name="test1d" id="test1d" placeholder="Test1" required min="20" class="ff" oninput="usied()">
+                </td>
+                
+                <td class="ff">
+                    <input type="number" name="test2d" id="test2d" placeholder="Test2" class="ff" required min="20" oninput="usied()">
+                </td>
+
+                <td class="ff">
+                    <input type="number" name="examd" id="examd" placeholder="Exam" required class="ff" min="20" oninput="usied()">
+                </td>
+
+                <td class="ff">
+                    <input type="number" name="totald" id="totald" placeholder="TOTAL" required min="20" class="ff" oninput="usied()">
+                </td>
+            </tr>
+            <tr>
+                <td class="ff">
+                    <select name="Subject" id="subjecte" class="ff" onchange="usiee()"> 
+                        <option value="">--select your subject--</option>
+                        <option value="mathematics">mathematics</option>
+                        <option value="english">english</option>
+                        <option value="civic education">civic education</option>
+                        <option value="biology">biology</option>
+                        <option value="physics">physics</option>
+                        <option value="chemistry">chemistry</option>
+                        <option value="agric">agric</option>
+                        <option value="CCP">CCP</option>
+                        <option value="geography">geography</option>
+                    </select>  
+                </td>
+                <td class="ff">
+                    <input type="number" name="test1e" id="test1e" placeholder="Test1" required min="20" class="ff" oninput="usiee()">
+                </td>
+                
+                <td class="ff">
+                    <input type="number" name="test2e" id="test2e" placeholder="Test2" class="ff" required min="20" oninput="usiee()">
+                </td>
+
+                <td class="ff">
+                    <input type="number" name="exame" id="exame" placeholder="Exam" required class="ff" min="20" oninput="usiee()">
+                </td>
+
+                <td class="ff">
+                    <input type="number" name="totale" id="totale" placeholder="TOTAL" required min="20" class="ff" oninput="usiee()">
+                </td>
+            </tr>
+            <tr>
+                <td class="ff">
+                    <select name="Subject" id="subjectf" class="ff" onchange="usief()"> 
+                        <option value="">--select your subject--</option>
+                        <option value="mathematics">mathematics</option>
+                        <option value="english">english</option>
+                        <option value="civic education">civic education</option>
+                        <option value="biology">biology</option>
+                        <option value="physics">physics</option>
+                        <option value="chemistry">chemistry</option>
+                        <option value="agric">agric</option>
+                        <option value="CCP">CCP</option>
+                        <option value="geography">geography</option>
+                    </select>  
+                </td>
+                <td class="ff">
+                    <input type="number" name="test1f" id="test1f" placeholder="Test1" required min="20" class="ff" oninput="usief()">
+                </td>
+                
+                <td class="ff">
+                    <input type="number" name="test2f" id="test2f" placeholder="Test2" class="ff" required min="20" oninput="usief()">
+                </td>
+
+                <td class="ff">
+                    <input type="number" name="examf" id="examf" placeholder="Exam" required class="ff" min="20" oninput="usief()">
+                </td>
+
+                <td class="ff">
+                    <input type="number" name="totalf" id="totalf" placeholder="TOTAL" required min="20" class="ff" oninput="usief()">
+                </td>
+            </tr>
+            <tr>
+                <td class="ff">
+                    <select name="Subject" id="subjectg" class="ff" onchange="usieg()"> 
+                        <option value="">--select your subject--</option>
+                        <option value="mathematics">mathematics</option>
+                        <option value="english">english</option>
+                        <option value="civic education">civic education</option>
+                        <option value="biology">biology</option>
+                        <option value="physics">physics</option>
+                        <option value="chemistry">chemistry</option>
+                        <option value="agric">agric</option>
+                        <option value="CCP">CCP</option>
+                        <option value="geography">geography</option>
+                    </select>  
+                </td>
+                <td class="ff">
+                    <input type="number" name="test1g" id="test1g" placeholder="Test1" required min="20" class="ff" oninput="usieg()">
+                </td>
+                
+                <td class="ff">
+                    <input type="number" name="test2g" id="test2g" placeholder="Test2" class="ff" required min="20" oninput="usieg()">
+                </td>
+
+                <td class="ff">
+                    <input type="number" name="examg" id="examg" placeholder="Exam" required class="ff" min="20" oninput="usieg()">
+                </td>
+
+                <td class="ff">
+                    <input type="number" name="totalg" id="totalg" placeholder="TOTAL" required min="20" class="ff" oninput="usieg()">
+                </td>
+            </tr>
+            <tr>
+                <td class="ff">
+                    <select name="Subject" id="subjecth" class="ff" onchange="usieh()"> 
+                        <option value="">--select your subject--</option>
+                        <option value="mathematics">mathematics</option>
+                        <option value="english">english</option>
+                        <option value="civic education">civic education</option>
+                        <option value="biology">biology</option>
+                        <option value="physics">physics</option>
+                        <option value="chemistry">chemistry</option>
+                        <option value="agric">agric</option>
+                        <option value="CCP">CCP</option>
+                        <option value="geography">geography</option>
+                    </select>  
+                </td>
+                <td class="ff">
+                    <input type="number" name="test1h" id="test1h" placeholder="Test1" required min="20" class="ff" oninput="usieh()">
+                </td>
+                
+                <td class="ff">
+                    <input type="number" name="test2h" id="test2h" placeholder="Test2" class="ff" required min="20" oninput="usieh()">
+                </td>
+
+                <td class="ff">
+                    <input type="number" name="examh" id="examh" placeholder="Exam" required class="ff" min="20" oninput="usieh()">
+                </td>
+
+                <td class="ff">
+                    <input type="number" name="totalh" id="totalh" placeholder="TOTAL" required min="20" class="ff" oninput="usieh()">
+                </td>
+            </tr>
+            <tr>
+                <td class="ff">
+                    <select name="Subject" id="subjecti" class="ff" onchange="usiei()"> 
+                        <option value="">--select your subject--</option>
+                        <option value="mathematics">mathematics</option>
+                        <option value="english">english</option>
+                        <option value="civic education">civic education</option>
+                        <option value="biology">biology</option>
+                        <option value="physics">physics</option>
+                        <option value="chemistry">chemistry</option>
+                        <option value="agric">agric</option>
+                        <option value="CCP">CCP</option>
+                        <option value="geography">geography</option>
+                    </select>  
+                </td>
+                <td class="ff">
+                    <input type="number" name="test1i" id="test1i" placeholder="Test1" required min="20" class="ff" oninput="usiei()">
+                </td>
+                
+                <td class="ff">
+                    <input type="number" name="test2i" id="test2i" placeholder="Test2" class="ff" required min="20" oninput="usiei()">
+                </td>
+
+                <td class="ff">
+                    <input type="number" name="exami" id="exami" placeholder="Exam" required class="ff" min="20" oninput="usiei()">
+                </td>
+
+
+                <td class="ff">
+                    <input type="number" name="totali" id="totali" placeholder="TOTAL" required min="20" class="ff" oninput="usiei()">
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+</form>
+<script type="text/javascript">
+  
+  function para() {
+                    let name = document.getElementById("namee").value;
+                    document.getElementById("uname").innerHTML = name;
+
+                    let classs = document.getElementById("classs").value;
+                    document.getElementById("uclass").innerHTML = classs;
+                    
+                 }
+                 function usiea(){
+                    let subject = document.getElementById("subjecta").value;
+                    document.getElementById("asubject").innerHTML = subject;
+                    let test1 = document.getElementById("test1a").value;
+                    let test2 = document.getElementById("test2a").value;
+                    let exam = document.getElementById("exama").value;
+
+                    let total = Number(test1)+Number(test2)+Number(exam);
+                    document.getElementById("totala").value = total;
+                    document.getElementById("atotal").innerHTML = total;
+
+                    if(total >= 70 && total <= 100) {
+                        document.getElementById("agrade").innerHTML = "A";
+                        document.getElementById("aremark").innerHTML = "Excellent";
+                    }
+                    else if(total >= 60) {
+                        document.getElementById("agrade").innerHTML = "b";
+                        document.getElementById("aremark").innerHTML = "very good";
+                    }
+
+                    else if(total >= 50) {
+                        document.getElementById("agrade").innerHTML = "c";
+                        document.getElementById("aremark").innerHTML = "Average";
+                    }
+
+                    else if(total >= 40) {
+                        document.getElementById("agrade").innerHTML = "d";
+                        document.getElementById("aremark").innerHTML = "fair";
+                    }
+                    else if(total >= 0) {
+                        document.getElementById("agrade").innerHTML = "F";
+                        document.getElementById("aremark").innerHTML = "fail";
+                    }
+                    else{
+                        invalid
+                    }
+                 }
+                 function usieb(){
+                    let subject = document.getElementById("subjectb").value;
+                    document.getElementById("bsubject").innerHTML = subject;
+                    let test1 = document.getElementById("test1b").value;
+                    let test2 = document.getElementById("test2b").value;
+                    let exam = document.getElementById("examb").value;
+
+                    let total = Number(test1)+Number(test2)+Number(exam);
+                    document.getElementById("totalb").value = total;
+                    document.getElementById("btotal").innerHTML = total;
+
+                    if(total >= 70 && total <= 100) {
+                        document.getElementById("bgrade").innerHTML = "A";
+                        document.getElementById("bremark").innerHTML = "Excellent";
+                    }
+                    else if(total >= 60) {
+                        document.getElementById("bgrade").innerHTML = "b";
+                        document.getElementById("bremark").innerHTML = "very good";
+                    }
+
+                    else if(total >= 50) {
+                        document.getElementById("bgrade").innerHTML = "c";
+                        document.getElementById("bremark").innerHTML = "Average";
+                    }
+
+                    else if(total >= 40) {
+                        document.getElementById("bgrade").innerHTML = "d";
+                        document.getElementById("bremark").innerHTML = "fair";
+                    }
+                    else if(total >= 0) {
+                        document.getElementById("bgrade").innerHTML = "F";
+                        document.getElementById("bremark").innerHTML = "fail";
+                    }
+                    else{
+                        invalid
+                    }
+                 }
+                 function usiec(){
+                    let subject = document.getElementById("subjectc").value;
+                    document.getElementById("csubject").innerHTML = subject;
+                    let test1 = document.getElementById("test1c").value;
+                    let test2 = document.getElementById("test2c").value;
+                    let exam = document.getElementById("examc").value;
+
+                    let total = Number(test1)+Number(test2)+Number(exam);
+                    document.getElementById("totalc").value = total;
+                    document.getElementById("ctotal").innerHTML = total;
+
+                    if(total >= 70 && total <= 100) {
+                        document.getElementById("cgrade").innerHTML = "A";
+                        document.getElementById("cremark").innerHTML = "Excellent";
+                    }
+                    else if(total >= 60) {
+                        document.getElementById("cgrade").innerHTML = "b";
+                        document.getElementById("cremark").innerHTML = "very good";
+                    }
+
+                    else if(total >= 50) {
+                        document.getElementById("cgrade").innerHTML = "c";
+                        document.getElementById("cremark").innerHTML = "Average";
+                    }
+
+                    else if(total >= 40) {
+                        document.getElementById("cgrade").innerHTML = "d";
+                        document.getElementById("cremark").innerHTML = "fair";
+                    }
+                    else if(total >= 0) {
+                        document.getElementById("cgrade").innerHTML = "F";
+                        document.getElementById("cremark").innerHTML = "fail";
+                    }
+                    else{
+                        invalid
+                    }
+                 }
+                 function usied(){
+                    let subject = document.getElementById("subjectd").value;
+                    document.getElementById("dsubject").innerHTML = subject;
+                    let test1 = document.getElementById("test1d").value;
+                    let test2 = document.getElementById("test2d").value;
+                    let exam = document.getElementById("examd").value;
+
+                    let total = Number(test1)+Number(test2)+Number(exam);
+                    document.getElementById("totald").value = total;
+                    document.getElementById("dtotal").innerHTML = total;
+
+                    if(total >= 70 && total <= 100) {
+                        document.getElementById("dgrade").innerHTML = "A";
+                        document.getElementById("dremark").innerHTML = "Excellent";
+                    }
+                    else if(total >= 60) {
+                        document.getElementById("dgrade").innerHTML = "b";
+                        document.getElementById("dremark").innerHTML = "very good";
+                    }
+
+                    else if(total >= 50) {
+                        document.getElementById("dgrade").innerHTML = "c";
+                        document.getElementById("dremark").innerHTML = "Average";
+                    }
+
+                    else if(total >= 40) {
+                        document.getElementById("dgrade").innerHTML = "d";
+                        document.getElementById("dremark").innerHTML = "fair";
+                    }
+                    else if(total >= 0) {
+                        document.getElementById("dgrade").innerHTML = "F";
+                        document.getElementById("dremark").innerHTML = "fail";
+                    }
+                    else{
+                        invalid
+                    }
+                 }
+                 function usiee(){
+                    let subject = document.getElementById("subjecte").value;
+                    document.getElementById("esubject").innerHTML = subject;
+                    let test1 = document.getElementById("test1e").value;
+                    let test2 = document.getElementById("test2e").value;
+                    let exam = document.getElementById("exame").value;
+
+                    let total = Number(test1)+Number(test2)+Number(exam);
+                    document.getElementById("totale").value = total;
+                    document.getElementById("etotal").innerHTML = total;
+
+                    if(total >= 70 && total <= 100) {
+                        document.getElementById("egrade").innerHTML = "A";
+                        document.getElementById("eremark").innerHTML = "Excellent";
+                    }
+                    else if(total >= 60) {
+                        document.getElementById("egrade").innerHTML = "b";
+                        document.getElementById("eremark").innerHTML = "very good";
+                    }
+
+                    else if(total >= 50) {
+                        document.getElementById("egrade").innerHTML = "c";
+                        document.getElementById("eremark").innerHTML = "Average";
+                    }
+
+                    else if(total >= 40) {
+                        document.getElementById("egrade").innerHTML = "d";
+                        document.getElementById("eremark").innerHTML = "fair";
+                    }
+                    else if(total >= 0) {
+                        document.getElementById("egrade").innerHTML = "F";
+                        document.getElementById("eremark").innerHTML = "fail";
+                    }
+                    else{
+                        invalid
+                    }
+                 }
+                 function usief(){
+                    let subject = document.getElementById("subjectf").value;
+                    document.getElementById("fsubject").innerHTML = subject;
+                    let test1 = document.getElementById("test1f").value;
+                    let test2 = document.getElementById("test2f").value;
+                    let exam = document.getElementById("examf").value;
+
+                    let total = Number(test1)+Number(test2)+Number(exam);
+                    document.getElementById("totalf").value = total;
+                    document.getElementById("ftotal").innerHTML = total;
+
+                    if(total >= 70 && total <= 100) {
+                        document.getElementById("fgrade").innerHTML = "A";
+                        document.getElementById("fremark").innerHTML = "Excellent";
+                    }
+                    else if(total >= 60) {
+                        document.getElementById("fgrade").innerHTML = "b";
+                        document.getElementById("fremark").innerHTML = "very good";
+                    }
+
+                    else if(total >= 50) {
+                        document.getElementById("fgrade").innerHTML = "c";
+                        document.getElementById("fremark").innerHTML = "Average";
+                    }
+
+                    else if(total >= 40) {
+                        document.getElementById("fgrade").innerHTML = "d";
+                        document.getElementById("fremark").innerHTML = "fair";
+                    }
+                    else if(total >= 0) {
+                        document.getElementById("fgrade").innerHTML = "F";
+                        document.getElementById("fremark").innerHTML = "fail";
+                    }
+                    else{
+                        invalid
+                    }
+                 }
+                 function usieg(){
+                    let subject = document.getElementById("subjectg").value;
+                    document.getElementById("gsubject").innerHTML = subject;
+                    let test1 = document.getElementById("test1g").value;
+                    let test2 = document.getElementById("test2g").value;
+                    let exam = document.getElementById("examg").value;
+
+                    let total = Number(test1)+Number(test2)+Number(exam);
+                    document.getElementById("totalg").value = total;
+                    document.getElementById("gtotal").innerHTML = total;
+
+                    if(total >= 70 && total <= 100) {
+                        document.getElementById("ggrade").innerHTML = "A";
+                        document.getElementById("gremark").innerHTML = "Excellent";
+                    }
+                    else if(total >= 60) {
+                        document.getElementById("ggrade").innerHTML = "b";
+                        document.getElementById("gremark").innerHTML = "very good";
+                    }
+
+                    else if(total >= 50) {
+                        document.getElementById("ggrade").innerHTML = "c";
+                        document.getElementById("gremark").innerHTML = "Average";
+                    }
+
+                    else if(total >= 40) {
+                        document.getElementById("ggrade").innerHTML = "d";
+                        document.getElementById("gremark").innerHTML = "fair";
+                    }
+                    else if(total >= 0) {
+                        document.getElementById("ggrade").innerHTML = "F";
+                        document.getElementById("gremark").innerHTML = "fail";
+                    }
+                    else{
+                        invalid
+                    }
+                 }
+                 function usieh(){
+                    let subject = document.getElementById("subjecth").value;
+                    document.getElementById("hsubject").innerHTML = subject;
+                    let test1 = document.getElementById("test1h").value;
+                    let test2 = document.getElementById("test2h").value;
+                    let exam = document.getElementById("examh").value;
+
+                    let total = Number(test1)+Number(test2)+Number(exam);
+                    document.getElementById("totalh").value = total;
+                    document.getElementById("htotal").innerHTML = total;
+
+                    if(total >= 70 && total <= 100) {
+                        document.getElementById("hgrade").innerHTML = "A";
+                        document.getElementById("hremark").innerHTML = "Excellent";
+                    }
+                    else if(total >= 60) {
+                        document.getElementById("hgrade").innerHTML = "b";
+                        document.getElementById("hremark").innerHTML = "very good";
+                    }
+
+                    else if(total >= 50) {
+                        document.getElementById("hgrade").innerHTML = "c";
+                        document.getElementById("hremark").innerHTML = "Average";
+                    }
+
+                    else if(total >= 40) {
+                        document.getElementById("hgrade").innerHTML = "d";
+                        document.getElementById("hremark").innerHTML = "fair";
+                    }
+                    else if(total >= 0) {
+                        document.getElementById("hgrade").innerHTML = "F";
+                        document.getElementById("hremark").innerHTML = "fail";
+                    }
+                    else{
+                        invalid
+                    }
+                 }
+                 function usiei(){
+                    let subject = document.getElementById("subjecti").value;
+                    document.getElementById("isubject").innerHTML = subject;
+                    let test1 = document.getElementById("test1i").value;
+                    let test2 = document.getElementById("test2i").value;
+                    let exam = document.getElementById("exami").value;
+
+                    let total = Number(test1)+Number(test2)+Number(exam);
+                    document.getElementById("totali").value = total;
+                    document.getElementById("itotal").innerHTML = total;
+
+                    if(total >= 70 && total <= 100) {
+                        document.getElementById("igrade").innerHTML = "A";
+                        document.getElementById("iremark").innerHTML = "Excellent";
+                    }
+                    else if(total >= 60) {
+                        document.getElementById("igrade").innerHTML = "b";
+                        document.getElementById("iremark").innerHTML = "very good";
+                    }
+
+                    else if(total >= 50) {
+                        document.getElementById("igrade").innerHTML = "c";
+                        document.getElementById("iremark").innerHTML = "Average";
+                    }
+
+                    else if(total >= 40) {
+                        document.getElementById("igrade").innerHTML = "d";
+                        document.getElementById("iremark").innerHTML = "fair";
+                    }
+                    else if(total >= 0) {
+                        document.getElementById("igrade").innerHTML = "F";
+                        document.getElementById("iremark").innerHTML = "fail";
+                    }
+                    else{
+                        invalid
+                    }
+                 }
+</script>
+
+</div>
+<div class="final">
+    <div id="uname">NAME:</div>
+    <div id="uclass">CLASS:</div>
+    <table class="atab">
+<thead>
+    <th>S/N</th>
+    <th>SUBJECT</th>
+    <th>TOTAL</th>
+    <th>GRADE</th>
+    <th>REMARK</th>
+</thead>
+    <tbody>
+        <tr>
+            <td class="us">1</td>
+            <td class="us" id="asubject"></td>
+            <td class="us" id="atotal"></td>
+            <td class="us" id="agrade"></td>
+            <td class="us" id="aremark"></td>
+        </tr>
+        <tr>
+            <td class="us">2</td>
+            <td class="us" id="bsubject"></td>
+            <td class="us" id="btotal"></td>
+            <td class="us" id="bgrade"></td>
+            <td class="us" id="bremark"></td>  
+        </tr>
+        <tr>
+            <td class="us">3</td>
+            <td class="us" id="csubject"></td>
+            <td class="us" id="ctotal"></td>
+            <td class="us" id="cgrade"></td>
+            <td class="us" id="cremark"></td>
+        </tr>
+        <tr>
+            <td class="us">4</td>
+            <td class="us" id="dsubject"></td>
+            <td class="us" id="dtotal"></td>
+            <td class="us" id="dgrade"></td>
+            <td class="us" id="dremark"></td>  
+        </tr>
+        <tr>
+            <td class="us">5</td>
+            <td class="us" id="esubject"></td>
+            <td class="us" id="etotal"></td>
+            <td class="us" id="egrade"></td>
+            <td class="us" id="eremark"></td>
+        </tr>
+        <tr>
+            <td class="us">6</td>
+            <td class="us" id="fsubject"></td>
+            <td class="us" id="ftotal"></td>
+            <td class="us" id="fgrade"></td>
+            <td class="us" id="fremark"></td>
+        </tr>
+        <tr>
+            <td class="us">7</td>
+            <td class="us" id="gsubject"></td>
+            <td class="us" id="gtotal"></td>
+            <td class="us" id="ggrade"></td>
+            <td class="us" id="gremark"></td>
+        </tr>
+        <tr>
+            <td class="us">8</td>
+            <td class="us" id="hsubject"></td>
+            <td class="us" id="htotal"></td>
+            <td class="us" id="hgrade"></td>
+            <td class="us" id="hremark"></td>
+        </tr>
+        <tr>
+            <td class="us">9</td>
+            <td class="us" id="isubject"></td>
+            <td class="us" id="itotal"></td>
+            <td class="us" id="igrade"></td>
+            <td class="us" id="iremark"></td>
+        </tr>
+    </tbody>
+
+    </table>
+    <p class="home">Teacher remark:</p>
+  <input type="text" name="remark" id="remark" class="hmm" oninput="yes">
+  <p class="hom">Principal remark:</p>
+  <input type="text" name="remarks" id="remarks" class="hm">
+</div>
+   </div> 
 </body>
-</html>                        
+</html>
